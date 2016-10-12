@@ -45,6 +45,13 @@
     <Compile Include="Services\SelfieService.cs" />
     <Compile Include="ViewModels\SelfiesPageViewModel.cs" />
     <Compile Include="ViewModels\AddSelfiePageViewModel.cs" />
+    <Compile Include="ViewModels\ViewModelLocator.cs" />
+    <Compile Include="Views\AddSelfiePage.xaml.cs">
+      <DependentUpon>AddSelfiePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\SelfiesPage.xaml.cs">
+      <DependentUpon>SelfiesPage.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="GalaSoft.MvvmLight, Version=5.3.0.19026, Culture=neutral, PublicKeyToken=e7570ab207bcb616, processorArchitecture=MSIL">
@@ -86,6 +93,23 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="DummyPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\HeadsInTheCloudLogo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Views\SelfiesPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Views\AddSelfiePage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>

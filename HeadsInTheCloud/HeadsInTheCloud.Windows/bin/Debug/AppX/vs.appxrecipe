@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>TESSLENOVO</Machine>
+    <WindowsUser>tferrand</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>fa4d293a-80ae-49a9-9421-80e7c636272a</PackageIdentityName>
+    <PackageIdentityPublisher>CN=joaqu</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\tferrand\Source\Repos\HeadsInTheCloud\HeadsInTheCloud\HeadsInTheCloud.Windows\obj\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <RegisteredManifestChecksum>CE00D026D53C7477E7DA39047DAB7A9D296A236107B7D659A70FE216505B5406</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>fa4d293a-80ae-49a9-9421-80e7c636272a_1.0.0.0_neutral__nh7s0b45jarrj</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>fa4d293a-80ae-49a9-9421-80e7c636272a_nh7s0b45jarrj!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>fa4d293a-80ae-49a9-9421-80e7c636272a</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=joaqu</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\tferrand\Source\Repos\HeadsInTheCloud\HeadsInTheCloud\HeadsInTheCloud.Windows\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-10-12T13:22:08.611</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\tferrand\Source\Repos\HeadsInTheCloud\HeadsInTheCloud\HeadsInTheCloud.Windows\bin\Debug\HeadsInTheCloud.Windows.exe">
+      <PackagePath>HeadsInTheCloud.Windows.exe</PackagePath>
+      <Modified>2016-10-12T13:22:07.452</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tferrand\Source\Repos\HeadsInTheCloud\packages\MvvmLightLibs.5.3.0.0\lib\windows81\GalaSoft.MvvmLight.dll">
+      <PackagePath>GalaSoft.MvvmLight.dll</PackagePath>
+      <Modified>2016-10-12T13:19:31.541</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tferrand\Source\Repos\HeadsInTheCloud\packages\MvvmLightLibs.5.3.0.0\lib\windows81\GalaSoft.MvvmLight.Extras.dll">
+      <PackagePath>GalaSoft.MvvmLight.Extras.dll</PackagePath>
+      <Modified>2016-10-12T13:19:31.559</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tferrand\Source\Repos\HeadsInTheCloud\packages\MvvmLightLibs.5.3.0.0\lib\windows81\GalaSoft.MvvmLight.Platform.dll">
+      <PackagePath>GalaSoft.MvvmLight.Platform.dll</PackagePath>
+      <Modified>2016-10-12T13:19:31.589</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tferrand\Source\Repos\HeadsInTheCloud\HeadsInTheCloud\HeadsInTheCloud\bin\Debug\HeadsInTheCloud.dll">
+      <PackagePath>HeadsInTheCloud.dll</PackagePath>
+      <Modified>2016-10-12T13:22:05.895</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tferrand\Source\Repos\HeadsInTheCloud\packages\CommonServiceLocator.1.3\lib\portable-net4+sl5+netcore45+wpa81+wp8\Microsoft.Practices.ServiceLocation.dll">
+      <PackagePath>Microsoft.Practices.ServiceLocation.dll</PackagePath>
+      <Modified>2016-10-12T13:19:30.944</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tferrand\Source\Repos\HeadsInTheCloud\packages\Xam.Plugin.Media.2.3.0\lib\win8\Plugin.Media.Abstractions.dll">
+      <PackagePath>Plugin.Media.Abstractions.dll</PackagePath>
+      <Modified>2016-10-12T13:19:32.607</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tferrand\Source\Repos\HeadsInTheCloud\packages\Xam.Plugin.Media.2.3.0\lib\win8\Plugin.Media.dll">
+      <PackagePath>Plugin.Media.dll</PackagePath>
+      <Modified>2016-10-12T13:19:32.627</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tferrand\Source\Repos\HeadsInTheCloud\packages\Xamarin.Forms.2.2.0.45\lib\win81\Xamarin.Forms.Core.dll">
+      <PackagePath>Xamarin.Forms.Core.dll</PackagePath>
+      <Modified>2016-10-12T13:19:35.074</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tferrand\Source\Repos\HeadsInTheCloud\packages\Xamarin.Forms.2.2.0.45\lib\win81\Xamarin.Forms.Platform.dll">
+      <PackagePath>Xamarin.Forms.Platform.dll</PackagePath>
+      <Modified>2016-10-12T13:19:35.194</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tferrand\Source\Repos\HeadsInTheCloud\packages\Xamarin.Forms.2.2.0.45\lib\win81\Xamarin.Forms.Platform.WinRT.dll">
+      <PackagePath>Xamarin.Forms.Platform.WinRT.dll</PackagePath>
+      <Modified>2016-10-12T13:19:35.229</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tferrand\Source\Repos\HeadsInTheCloud\packages\Xamarin.Forms.2.2.0.45\lib\win81\Xamarin.Forms.Platform.WinRT.Tablet.dll">
+      <PackagePath>Xamarin.Forms.Platform.WinRT.Tablet.dll</PackagePath>
+      <Modified>2016-10-12T13:19:35.254</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tferrand\Source\Repos\HeadsInTheCloud\packages\Xamarin.Forms.2.2.0.45\lib\win81\Xamarin.Forms.Xaml.dll">
+      <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
+      <Modified>2016-10-12T13:19:35.339</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tferrand\Source\Repos\HeadsInTheCloud\HeadsInTheCloud\HeadsInTheCloud.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-10-12T13:19:30.685</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tferrand\Source\Repos\HeadsInTheCloud\HeadsInTheCloud\HeadsInTheCloud.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-10-12T13:19:30.687</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tferrand\Source\Repos\HeadsInTheCloud\HeadsInTheCloud\HeadsInTheCloud.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-10-12T13:19:30.689</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tferrand\Source\Repos\HeadsInTheCloud\HeadsInTheCloud\HeadsInTheCloud.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-10-12T13:19:30.691</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tferrand\Source\Repos\HeadsInTheCloud\HeadsInTheCloud\HeadsInTheCloud.Windows\bin\Debug\HeadsInTheCloud.Windows.xr.xml">
+      <PackagePath>HeadsInTheCloud.Windows.xr.xml</PackagePath>
+      <Modified>2016-10-12T13:22:07.300</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tferrand\Source\Repos\HeadsInTheCloud\HeadsInTheCloud\HeadsInTheCloud.Windows\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2016-10-12T13:22:07.373</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tferrand\Source\Repos\HeadsInTheCloud\HeadsInTheCloud\HeadsInTheCloud.Windows\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2016-10-12T13:22:07.376</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tferrand\Source\Repos\HeadsInTheCloud\packages\Xamarin.Forms.2.2.0.45\lib\win81\Xamarin.Forms.Platform.WinRT\PageControl.xbf">
+      <PackagePath>Xamarin.Forms.Platform.WinRT\PageControl.xbf</PackagePath>
+      <Modified>2016-10-12T13:19:35.292</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tferrand\Source\Repos\HeadsInTheCloud\packages\Xamarin.Forms.2.2.0.45\lib\win81\Xamarin.Forms.Platform.WinRT\StepperControl.xbf">
+      <PackagePath>Xamarin.Forms.Platform.WinRT\StepperControl.xbf</PackagePath>
+      <Modified>2016-10-12T13:19:35.298</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tferrand\Source\Repos\HeadsInTheCloud\packages\Xamarin.Forms.2.2.0.45\lib\win81\Xamarin.Forms.Platform.WinRT\Xamarin.Forms.Platform.WinRT.xr.xml">
+      <PackagePath>Xamarin.Forms.Platform.WinRT\Xamarin.Forms.Platform.WinRT.xr.xml</PackagePath>
+      <Modified>2016-10-12T13:19:35.306</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tferrand\Source\Repos\HeadsInTheCloud\packages\Xamarin.Forms.2.2.0.45\lib\win81\Xamarin.Forms.Platform.WinRT.Tablet\FormsTextBoxStyle.xbf">
+      <PackagePath>Xamarin.Forms.Platform.WinRT.Tablet\FormsTextBoxStyle.xbf</PackagePath>
+      <Modified>2016-10-12T13:19:35.266</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tferrand\Source\Repos\HeadsInTheCloud\packages\Xamarin.Forms.2.2.0.45\lib\win81\Xamarin.Forms.Platform.WinRT.Tablet\Resources.xbf">
+      <PackagePath>Xamarin.Forms.Platform.WinRT.Tablet\Resources.xbf</PackagePath>
+      <Modified>2016-10-12T13:19:35.271</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tferrand\Source\Repos\HeadsInTheCloud\packages\Xamarin.Forms.2.2.0.45\lib\win81\Xamarin.Forms.Platform.WinRT.Tablet\TabletResources.xbf">
+      <PackagePath>Xamarin.Forms.Platform.WinRT.Tablet\TabletResources.xbf</PackagePath>
+      <Modified>2016-10-12T13:19:35.278</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tferrand\Source\Repos\HeadsInTheCloud\packages\Xamarin.Forms.2.2.0.45\lib\win81\Xamarin.Forms.Platform.WinRT.Tablet\Xamarin.Forms.Platform.WinRT.Tablet.xr.xml">
+      <PackagePath>Xamarin.Forms.Platform.WinRT.Tablet\Xamarin.Forms.Platform.WinRT.Tablet.xr.xml</PackagePath>
+      <Modified>2016-10-12T13:19:35.287</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tferrand\Source\Repos\HeadsInTheCloud\HeadsInTheCloud\HeadsInTheCloud.Windows\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-10-12T13:22:08.201</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

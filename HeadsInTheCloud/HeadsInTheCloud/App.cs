@@ -1,4 +1,5 @@
-﻿using System;
+﻿using HeadsInTheCloud.Views;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,7 +13,7 @@ namespace HeadsInTheCloud
         public App()
         {
             // The root page of your application
-            MainPage = new NavigationPage(new DummyPage());
+            MainPage = new NavigationPage(new SelfiesPage());
         }
 
         protected override void OnStart()

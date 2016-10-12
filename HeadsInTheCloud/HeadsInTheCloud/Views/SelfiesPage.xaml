@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HeadsInTheCloud.Views.SelfiesPage" Padding="20">
+  <Grid >
+    <Grid.RowDefinitions>
+      <RowDefinition Height="40"></RowDefinition>
+      <RowDefinition Height="*"></RowDefinition>
+      <RowDefinition Height="Auto"></RowDefinition>
+    </Grid.RowDefinitions>
+    <StackLayout HorizontalOptions="LayoutOptions.Center">
+      <Image Source="Assets/HeadsInTheCloudLogo.png" ></Image>
+      <Label>Heads in the cloud</Label>
+    </StackLayout>
+    <ListView Grid.Row="1" ></ListView>
+    <!--<BoxView Grid.Row="2" Color="Blue"></BoxView>-->
+    <Button Text="Take Picture" Grid.Row="2" HorizontalOptions="LayoutOptions.Center" />
+  </Grid>
+</ContentPage>

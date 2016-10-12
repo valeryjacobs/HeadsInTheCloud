@@ -1,0 +1,2 @@
+C:\Users\tferrand\Source\Repos\HeadsInTheCloud\HeadsInTheCloud\HeadsInTheCloud.UWP\HeadsInTheCloud.UWP.csproj;x64
+C:\Users\tferrand\Source\Repos\HeadsInTheCloud\HeadsInTheCloud\HeadsInTheCloud\HeadsInTheCloud.csproj;neutral
