@@ -1,5 +1,7 @@
 ﻿{
   "dependencies": {
+    "Microsoft.Azure.Mobile.Client": "3.0.2",
+    "Microsoft.Bcl.Build": "1.0.21",
     "Microsoft.NETCore.UniversalWindowsPlatform": "5.0.0",
     "MvvmLight": "5.3.0",
     "Xam.Plugin.Media": "2.3.0",
