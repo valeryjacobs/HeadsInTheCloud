@@ -1,8 +1,13 @@
-﻿using System;
+﻿using GalaSoft.MvvmLight.Ioc;
+using HeadsInTheCloud.Abstracts;
+using Microsoft.WindowsAzure.Storage;
+using Microsoft.WindowsAzure.Storage.Blob;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using System.Threading.Tasks;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.UI.Xaml;
@@ -21,6 +26,7 @@ namespace HeadsInTheCloud.UWP
         {
             this.InitializeComponent();
 
+            SimpleIoc.Default.Register<IBlobStorage, BlobStorageUWP>();
             LoadApplication(new HeadsInTheCloud.App());
         }
     }

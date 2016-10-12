@@ -10,7 +10,9 @@ namespace HeadsInTheCloud.Models
 {
     public class Selfie
     {
+        public string id;
         public string Name;
-        public MediaFile Image;
+        public string ImageUrl;
+
     }
 }

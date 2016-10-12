@@ -35,6 +35,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Abstracts\IBlobStorage.cs" />
     <Compile Include="app.xaml.cs">
       <DependentUpon>app.xaml</DependentUpon>
     </Compile>

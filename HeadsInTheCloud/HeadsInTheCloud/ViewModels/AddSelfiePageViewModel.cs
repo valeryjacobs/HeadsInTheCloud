@@ -55,7 +55,7 @@ namespace HeadsInTheCloud.ViewModels
             {
                 return _saveSelfieCommand ?? new RelayCommand(async () =>
                 {
-                    await _selfieService.AddSelfieAsync(new Models.Selfie() { Name = Name, Image = Image });
+                    await _selfieService.AddSelfieAsync(new Models.Selfie() { Name = Name, ImageUrl = "" });
                 });
             }
         }
