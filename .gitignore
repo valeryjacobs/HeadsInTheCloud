@@ -3,3 +3,8 @@
 ################################################################################
 
 /HeadsInTheCloud/HeadsInTheCloud/obj/Debug
+/HeadsInTheCloud/HeadsInTheCloud.Droid/obj/Debug
+/HeadsInTheCloud/HeadsInTheCloud.iOS/obj/iPhone/Debug
+/HeadsInTheCloud/HeadsInTheCloud.UWP/obj/x86/Debug
+/HeadsInTheCloud/HeadsInTheCloud.Windows/obj/Debug
+/HeadsInTheCloud/HeadsInTheCloud.WinPhone/obj/Debug
