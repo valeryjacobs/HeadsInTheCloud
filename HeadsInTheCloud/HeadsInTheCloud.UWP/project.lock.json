@@ -18,9 +18,6 @@
           "Microsoft.Net.Http": "2.2.29",
           "Newtonsoft.Json": "6.0.4"
         },
-        "frameworkAssemblies": [
-          "System.Net.Http"
-        ],
         "compile": {
           "lib/netcore45/Microsoft.WindowsAzure.Mobile.Ext.dll": {},
           "lib/netcore45/Microsoft.WindowsAzure.Mobile.dll": {}
@@ -2041,9 +2038,6 @@
           "Microsoft.Net.Http": "2.2.29",
           "Newtonsoft.Json": "6.0.4"
         },
-        "frameworkAssemblies": [
-          "System.Net.Http"
-        ],
         "compile": {
           "lib/netcore45/Microsoft.WindowsAzure.Mobile.Ext.dll": {},
           "lib/netcore45/Microsoft.WindowsAzure.Mobile.dll": {}
@@ -3917,9 +3911,6 @@
           "Microsoft.Net.Http": "2.2.29",
           "Newtonsoft.Json": "6.0.4"
         },
-        "frameworkAssemblies": [
-          "System.Net.Http"
-        ],
         "compile": {
           "lib/netcore45/Microsoft.WindowsAzure.Mobile.Ext.dll": {},
           "lib/netcore45/Microsoft.WindowsAzure.Mobile.dll": {}
@@ -5757,9 +5748,6 @@
           "Microsoft.Net.Http": "2.2.29",
           "Newtonsoft.Json": "6.0.4"
         },
-        "frameworkAssemblies": [
-          "System.Net.Http"
-        ],
         "compile": {
           "lib/netcore45/Microsoft.WindowsAzure.Mobile.Ext.dll": {},
           "lib/netcore45/Microsoft.WindowsAzure.Mobile.dll": {}
@@ -7639,9 +7627,6 @@
           "Microsoft.Net.Http": "2.2.29",
           "Newtonsoft.Json": "6.0.4"
         },
-        "frameworkAssemblies": [
-          "System.Net.Http"
-        ],
         "compile": {
           "lib/netcore45/Microsoft.WindowsAzure.Mobile.Ext.dll": {},
           "lib/netcore45/Microsoft.WindowsAzure.Mobile.dll": {}
@@ -9479,9 +9464,6 @@
           "Microsoft.Net.Http": "2.2.29",
           "Newtonsoft.Json": "6.0.4"
         },
-        "frameworkAssemblies": [
-          "System.Net.Http"
-        ],
         "compile": {
           "lib/netcore45/Microsoft.WindowsAzure.Mobile.Ext.dll": {},
           "lib/netcore45/Microsoft.WindowsAzure.Mobile.dll": {}
@@ -11361,9 +11343,6 @@
           "Microsoft.Net.Http": "2.2.29",
           "Newtonsoft.Json": "6.0.4"
         },
-        "frameworkAssemblies": [
-          "System.Net.Http"
-        ],
         "compile": {
           "lib/netcore45/Microsoft.WindowsAzure.Mobile.Ext.dll": {},
           "lib/netcore45/Microsoft.WindowsAzure.Mobile.dll": {}
