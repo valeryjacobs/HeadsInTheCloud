@@ -2,5 +2,16 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="HeadsInTheCloud.Views.AddSelfiePage">
-  <Label Text="{Binding MainText}" VerticalOptions="Center" HorizontalOptions="Center" />
+  <Grid>
+    <Grid.RowDefinitions>
+      <RowDefinition Height="*"></RowDefinition>
+      <RowDefinition Height="*"></RowDefinition>
+    </Grid.RowDefinitions>
+    <Image Grid.Row="0"></Image>
+    <StackLayout Grid.Row="1">
+      <Label>Name:</Label>
+      <Entry />
+      <Button Text="Share"/>
+    </StackLayout>
+  </Grid>
 </ContentPage>

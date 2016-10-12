@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Plugin.Media;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,6 +14,12 @@ namespace HeadsInTheCloud.Views
         public SelfiesPage()
         {
             InitializeComponent();
+        }
+
+        void OnTakePicture(object sender, EventArgs e)
+        {
+            CrossMedia.Current.Initialize();
+            CrossMedia.Current.TakePhotoAsync(new Plugin.Media.Abstractions.StoreCameraMediaOptions() { DefaultCamera = Plugin.Media.Abstractions.CameraDevice.Front });
         }
     }
 }

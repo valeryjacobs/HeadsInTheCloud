@@ -213,3 +213,10 @@ C:\Users\tferrand\Source\Repos\HeadsInTheCloud\HeadsInTheCloud\HeadsInTheCloud.U
 C:\Users\tferrand\Source\Repos\HeadsInTheCloud\HeadsInTheCloud\HeadsInTheCloud.UWP\obj\x64\Debug\Xamarin.Forms.Platform.UAP.pri.xml
 C:\Users\tferrand\Source\Repos\HeadsInTheCloud\HeadsInTheCloud\HeadsInTheCloud.UWP\obj\x64\Debug\ProjectArchitectures.txt
 C:\Users\tferrand\Source\Repos\HeadsInTheCloud\HeadsInTheCloud\HeadsInTheCloud.UWP\bin\x64\Debug\Assets\HeadsInTheCloudLogo.png
+C:\Users\tferrand\Source\Repos\HeadsInTheCloud\HeadsInTheCloud\HeadsInTheCloud.UWP\bin\x64\Debug\Microsoft.WindowsAzure.Mobile.Ext.dll
+C:\Users\tferrand\Source\Repos\HeadsInTheCloud\HeadsInTheCloud\HeadsInTheCloud.UWP\bin\x64\Debug\Microsoft.WindowsAzure.Mobile.dll
+C:\Users\tferrand\Source\Repos\HeadsInTheCloud\HeadsInTheCloud\HeadsInTheCloud.UWP\bin\x64\Debug\System.Net.Http.Extensions.dll
+C:\Users\tferrand\Source\Repos\HeadsInTheCloud\HeadsInTheCloud\HeadsInTheCloud.UWP\bin\x64\Debug\System.Net.Http.Primitives.dll
+C:\Users\tferrand\Source\Repos\HeadsInTheCloud\HeadsInTheCloud\HeadsInTheCloud.UWP\bin\x64\Debug\Newtonsoft.Json.dll
+C:\Users\tferrand\Source\Repos\HeadsInTheCloud\HeadsInTheCloud\HeadsInTheCloud.UWP\obj\x64\Debug\Microsoft.WindowsAzure.Mobile\en-US\Microsoft.WindowsAzure.MobileServices.Resources.resw
+C:\Users\tferrand\Source\Repos\HeadsInTheCloud\HeadsInTheCloud\HeadsInTheCloud.UWP\obj\x64\Debug\Microsoft.WindowsAzure.Mobile.Ext.pri.xml

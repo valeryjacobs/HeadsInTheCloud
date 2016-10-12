@@ -8,12 +8,12 @@
       <RowDefinition Height="*"></RowDefinition>
       <RowDefinition Height="Auto"></RowDefinition>
     </Grid.RowDefinitions>
-    <StackLayout HorizontalOptions="LayoutOptions.Center">
-      <Image Source="Assets/HeadsInTheCloudLogo.png" ></Image>
-      <Label>Heads in the cloud</Label>
+    <StackLayout HorizontalOptions="LayoutOptions.Center" Orientation="Horizontal">
+      <Image Source="Assets/HeadsInTheCloudLogo.png" HeightRequest="40"></Image>
+      <Label FontSize="24">Heads in the cloud</Label>
     </StackLayout>
     <ListView Grid.Row="1" ></ListView>
     <!--<BoxView Grid.Row="2" Color="Blue"></BoxView>-->
-    <Button Text="Take Picture" Grid.Row="2" HorizontalOptions="LayoutOptions.Center" />
+    <Button Text="Take Picture" Grid.Row="2" HorizontalOptions="LayoutOptions.Center" Clicked="" />
   </Grid>
 </ContentPage>
