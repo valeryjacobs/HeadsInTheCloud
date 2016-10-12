@@ -12,11 +12,12 @@ namespace HeadsInTheCloud.Services
         public Task AddSelfieAsync(Selfie selfie)
         {
             // TODO
+            return Task.Run(() => { });
         }
 
         public Task<List<Selfie>> GetAllAsync()
         {
-            // TODO
+            return Task.Run<List<Selfie>>(() => { return new List<Selfie>(); });
         }
     }
 }

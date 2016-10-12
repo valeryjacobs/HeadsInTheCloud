@@ -1,6 +1,8 @@
-﻿using GalaSoft.MvvmLight.Command;
+﻿using GalaSoft.MvvmLight;
+using GalaSoft.MvvmLight.Command;
 using GalaSoft.MvvmLight.Ioc;
 using HeadsInTheCloud.Services;
+using Plugin.Media;
 using Plugin.Media.Abstractions;
 using System;
 using System.Collections.Generic;
@@ -10,7 +12,7 @@ using System.Threading.Tasks;
 
 namespace HeadsInTheCloud.ViewModels
 {
-    public class AddSelfiePageViewModel
+    public class AddSelfiePageViewModel : ViewModelBase
     {
         private ISelfieService _selfieService;
 
@@ -19,10 +21,34 @@ namespace HeadsInTheCloud.ViewModels
             _selfieService = SimpleIoc.Default.GetInstance<ISelfieService>();
         }
 
-        public MediaFile Image { get; set; }
+        private MediaFile _image;
+        public MediaFile Image
+        {
+            get
+            {
+                return _image;
+            }
+            set
+            {
+                Set("Image", ref _image, value);
+            }
+        }
+
         public string Name { get; set; }
 
-        private RelayCommand _saveSelfieCommand;
+        private RelayCommand _takePhotoCommand = null;
+        public RelayCommand TakePhotoCommand
+        {
+            get
+            {
+                return _takePhotoCommand ?? new RelayCommand(async () =>
+                {
+                    Image = await CrossMedia.Current.TakePhotoAsync(new StoreCameraMediaOptions() { DefaultCamera = CameraDevice.Front, SaveToAlbum = false });
+                });
+            }
+        }
+
+        private RelayCommand _saveSelfieCommand = null;
         public RelayCommand SaveSelfieCommand
         {
             get
